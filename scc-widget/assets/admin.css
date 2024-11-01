@@ -1,0 +1,63 @@
+div.scc_inclusion_lists {
+	display: none;
+}
+
+div.scc_widget_checklist {
+	background: #f1f1f1;
+	border: 1px solid #ddd;
+	display: table;
+	position: relative;
+	margin-bottom: 15px;
+}
+
+div.scc_widget_checklist div.scrollable {
+	background: #fff;
+	/*height: 165px !important;*/
+	max-height: 165px !important;
+	overflow-y: auto;
+	margin-top: 20px;
+	width: 225px;
+}
+
+div.scc_widget_checklist table {
+	border-spacing: 0;
+}
+
+div.scc_widget_checklist td,
+div.scc_widget_checklist th {
+	padding: 1px 3px;
+	text-align: left;
+}
+
+div.scc_widget_checklist div.scrollable table {
+	width: 100%;
+}
+
+div.scc_widget_checklist div.scrollable table td input {
+	margin-right: 4px;
+}
+
+div.scc_widget_checklist div.scrollable tr.zebra td {
+	background: #f5f6f8;
+}
+
+div.scc_widget_checklist table.header {
+	position: absolute;
+	width: 100%;
+}
+
+div.scc_widget_checklist table {
+	width: 100%;
+}
+
+div.scc_widget_checklist th.cat,
+div.scc_widget_checklist td.cat {
+	text-align: left;
+	width: 88%;
+}
+
+div.scc_widget_checklist th.chk,
+div.scc_widget_checklist td.chk {
+	text-align: center;
+	width: 12%;
+}
